@@ -1,0 +1,1933 @@
+background-color: #fff;
+    }
+
+    .name {
+        line-height: 20px;
+    }
+
+    .job-title {
+        margin-bottom: 0;
+        color: #bdbdc9;
+        font-size: 16px;
+    }
+
+    .social-button-section.horizantal {
+        position: absolute;
+        left: auto;
+        top: auto;
+        right: 0;
+        bottom: 0;
+        background-color: #e47312;
+        padding: 10px;
+    }
+
+    .no-border {
+        border-bottom-style: none;
+    }
+
+    ._2 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg);
+    }
+
+    ._3 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg);
+    }
+
+    ._4 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg);
+    }
+
+    .testimonial-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .testimonial-text {
+        width: 41.66%;
+        padding-right: 100px;
+        padding-left: 0;
+    }
+
+    .testimonial-details {
+        width: 58.33%;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+    }
+
+    .test-details-part {
+        width: 50%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .test-wrapper {
+        position: relative;
+        display: block;
+        width: 90%;
+        margin: 50px auto 61px;
+        padding: 80px 30px 26px;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .testo-photo {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        margin: -115px auto 25px;
+        background-image: linear-gradient(8deg, #ff6361, #e47312);
+        color: #fff;
+        opacity: 1;
+        font-size: 80px;
+        line-height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .photo-block2 {
+        padding-top: 12px;
+    }
+
+    .testi-title {
+        margin-top: 15px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .testi-paragraph {
+        margin-top: 15px;
+        margin-bottom: 0px;
+        color: #919197;
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .move-down {
+        margin-top: 151px;
+    }
+
+    .minus-margin {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .blog-grid {
+        display: flex;
+        margin-top: 7%;
+    }
+
+    .blog-item {
+        width: calc(33.33% - 20px);
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto;
+    }
+
+    .blog-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #fff;
+        text-decoration: none;
+        max-width: 100%;
+    }
+
+    .blog-img-wrapper {
+        position: relative;
+        background-color: #5c5c5c;
+    }
+
+    .blog-img {
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    .meta-tag {
+        position: absolute;
+        left: auto;
+        top: 0;
+        right: 0;
+        bottom: auto;
+    }
+
+    .meta-number {
+        display: flex;
+        width: 70px;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(45deg, #ff6361, #e47312);
+        color: #fff;
+        font-size: 26px;
+        font-weight: 400;
+    }
+
+    .meta-month {
+        background-color: #fff;
+        color: #9d9da5;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        width: 70px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-content {
+        width: 100%;
+        padding: 25px 56px 25px 30px;
+        background-color: #e47312;
+        background-image: linear-gradient(158deg, #e47312, #ff6361);
+    }
+
+    .smaller-white-blog {
+        margin-right: 0;
+        margin-bottom: 15px;
+        font-size: 19px;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+
+    .for-blog {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 0;
+    }
+
+    .white-button.for-white {
+        display: inline-block;
+        color: #fff;
+        font-size: 13px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        position: relative;
+        margin-left: 0;
+        margin-top: 15px;
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+
+    .white-button {
+        overflow: hidden;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .white-button.for-white::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        z-index: 100;
+        transition: 0.2s;
+        background-color: hsla(0, 0%, 100%, 0.3);
+    }
+
+    .white-button.for-white:hover::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        z-index: 100;
+        transition: 0.2s;
+        background-color: white;
+    }
+
+    .logo-section {
+        margin: 0 auto;
+        margin-top: 150px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-image: linear-gradient(56deg, #e47312, #ff6361);
+        text-align: center;
+    }
+
+    .logo-flex {
+        max-width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        position: relative;
+    }
+
+    .company-font-size {
+        font-size: 15px;
+        flex: 0 0 auto;
+        order: -1;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+
+    .tab-logo {
+        background-size: 100px;
+        width: 20%;
+        max-width: 100%;
+        min-height: 100px;
+        display: inline-block;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: 50%, 50%;
+        transition: all 400ms ease;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .logo-1 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-1w.png);
+    }
+
+    .logo-2 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-2w.png);
+    }
+
+    .logo-3 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-3w.png);
+    }
+
+    .logo-4 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-4w.png);
+    }
+
+    .logo-5 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-5w.png);
+    }
+
+    footer {
+        position: relative;
+        z-index: 1;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 70px;
+        border-top: 1px solid #2f3038;
+        background-color: #0a1229;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin-left: -10px;
+        margin-right: -10px;
+        flex: 1;
+        min-height: 1px;
+        display: flex;
+    }
+
+    .footer-item {
+        width: 33.33%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .with-line {
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .line {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        right: auto;
+        bottom: auto;
+        width: 100%;
+        height: 1px;
+        background-color: #ff6361;
+    }
+
+    .no-display {
+        display: none;
+    }
+
+    .in-footer {
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding-right: 14px;
+        background-color: #0a1229;
+        margin-right: 60px;
+        order: -1;
+        flex: 0 0 auto;
+        font-size: 15px;
+        line-height: 20px;
+        position: relative;
+        z-index: 2;
+    }
+
+    ._white1 {
+        color: #fff;
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .blue {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .white-button.for-white.blue::after {
+        background-color: transparent;
+    }
+
+    .white-button.for-white.blue:hover::after {
+        background-color: white;
+    }
+
+    .footer-column {
+        padding-right: 20%;
+    }
+
+    .white-button.for-white.blue.margin_1 {
+        margin-top: 10px;
+    }
+
+    .white-button.for-white.blue {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .contact-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-item.horizantal {
+        padding-top: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex: 1;
+    }
+
+    .left {
+        width: 20px;
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+
+    .new {
+        margin-top: 0px;
+        color: #fff;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+
+    .phone-no {
+        color: hsla(0, 0%, 100%, 0.7);
+        margin-left: 35px;
+        margin-top: 5px;
+        font-size: 17px;
+    }
+
+    .copyright {
+        margin-top: 80px;
+    }
+
+    .bottom-brand {
+        width: 50%;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+        main {
+            padding: 0;
+        }
+
+        .nav-button {
+            cursor: pointer;
+            color: #717177;
+            font-size: 26px;
+            margin: 20px;
+            display: block;
+        }
+
+        .background-title {
+            color: rgba(241, 241, 247, 0.4);
+            font-size: 60px;
+            letter-spacing: 11px;
+        }
+
+        .navigation-wrapper {
+            position: absolute;
+            height: 60px;
+            bottom: auto;
+            background-color: #fff;
+            width: 100%;
+            margin-top: 0;
+            max-width: 100%;
+        }
+
+        .nav-menu {
+            display: none;
+        }
+
+        .brand {
+            height: 60px;
+        }
+
+        .humburger-icon {
+            display: block;
+            cursor: pointer;
+            font-size: 0px;
+        }
+
+        .humburger-icon i {
+            font-size: 28px;
+        }
+
+        #banner {
+            height: 800px;
+            background-position: center center;
+            background-size: auto, cover;
+            max-width: 100%;
+        }
+
+        .social-button-section {
+            bottom: 0;
+            z-index: 10;
+            padding: 2px;
+        }
+
+        .top-title.on-banner {
+            font-size: 40px;
+            line-height: 50px;
+            width: 300px;
+        }
+
+        .info-section-view {
+            z-index: 2;
+            position: absolute;
+            right: auto;
+            bottom: 0px;
+            right: 0;
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .info-flex {
+            z-index: 1;
+            width: 100%;
+            display: flex;
+            padding-top: 30px;
+        }
+
+        .info-item {
+            width: calc(33% - 10px);
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .project-heading {
+            margin-top: 50px;
+        }
+
+        .top-title {
+            font-size: 26px;
+            line-height: 30px;
+            margin-left: 10px;
+        }
+
+        .primary-heading-wrapper {
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        #section-container {
+            margin-top: 150px;
+        }
+
+        .section-item-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+
+        .service-item {
+            width: 90%;
+        }
+
+        .who-we-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .labour-img-wrapper {
+            width: 100%;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .labour-img {
+            width: 100%;
+        }
+
+        .who-we-disc {
+            margin-top: 50px;
+            width: 100%;
+            padding-right: 30px;
+            padding-left: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #page-content {
+            overflow: hidden;
+        }
+
+        .fun-facts {
+            display: flex;
+            flex-direction: column;
+            margin-left: 30px;
+        }
+
+        .fun-item {
+            width: 100%;
+        }
+
+        .project-grid {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-items {
+            width: calc(100% - 24px);
+            padding-top: 15px;
+            padding-right: 12px;
+            padding-left: 12px;
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+        .orange-content>.top-title {
+            text-align: left;
+            margin-left: 18px;
+        }
+
+        .team-container {
+            margin-top: 10px;
+        }
+
+        .team-grid {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            align-items: stretch;
+        }
+
+        .team-wrapper {
+            width: calc(100% - 8px);
+            padding-left: 5px;
+            padding-right: 3px;
+            margin-top: 30px;
+        }
+
+        .testimonial-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .testimonial-text {
+            width: 100%;
+            padding-left: 40px;
+        }
+
+        .title-desc {
+            margin-left: 0;
+        }
+
+        .testimonial-details {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .test-details-part {
+            width: 100%;
+        }
+
+        .test-wrapper {
+            position: relative;
+            display: block;
+            width: 90%;
+            margin: 50px auto 61px;
+            padding: 80px 30px 26px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .blog-grid {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-item {
+            width: calc(95% - 20px);
+            padding-left: 10px;
+            padding-right: 10px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+
+        .blog-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            background-color: #fff;
+            text-decoration: none;
+            max-width: 100%;
+        }
+
+        .logo-section {
+            margin: 0 auto;
+            margin-top: 100px;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            background-image: linear-gradient(56deg, #e47312, #ff6361);
+            text-align: center;
+        }
+
+        .no-display {
+            display: block;
+            font-size: 15px;
+        }
+
+        .left-not-display {
+            display: none;
+        }
+
+        .logo-flex {
+            max-width: 100%;
+            display: block;
+            text-align: left;
+        }
+
+        .tab-logo {
+            width: 25%;
+            margin: 0 auto;
+            margin-left: 30px;
+        }
+
+        footer {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-right: 50px;
+            padding-left: 50px;
+            padding-top: 70px;
+        }
+
+        .footer-content {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-item {
+            width: calc(100% - 10px);
+            padding-right: 10px;
+            margin-top: 30px;
+        }
+
+        .with-line {
+            display: flex;
+            justify-content: flex-start;
+            align-items: baseline;
+        }
+
+        .in-footer {
+            font-size: 15px;
+        }
+
+        .line {
+            left: 10px;
+            top: 14px;
+        }
+
+        ._white1 {
+            width: 415px;
+        }
+
+        .info-item.horizantal {
+            width: 300px;
+        }
+
+        .footer-column {
+            padding-right: 0;
+        }
+
+        .title-desc {
+            margin-top: 0;
+        }
+
+        .primary-heading-wrapper {
+            margin-top: 0;
+        }
+
+        #section-container {
+            margin-top: 40px;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        body {
+            margin-left: auto;
+        }
+
+        .primary-heading-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .info-section-view {
+            display: none;
+        }
+
+        #banner {
+            height: 525px;
+        }
+
+        .who-we-disc {
+            height: 500px;
+        }
+
+        .orange-section {
+            margin-top: 10px;
+            width: 100%;
+            padding: 1% 0% 20px 0px;
+        }
+
+        .logo-section {
+            padding-top: 40px;
+        }
+
+        .logo-flex {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tab-logo {
+            margin: 0 auto;
+        }
+
+        footer {
+            margin-right: 0px;
+            padding-right: 0px;
+            padding-left: 25px;
+        }
+
+        .paragraph-white._white1 {
+            width: 300px;
+        }
+    }
+</style>
+
+<body>
+    <div class="main">
+        <section id="banner">
+            <div class="navigation-wrapper">
+                <div class="brand">
+                    <a href="#">
+                        <img class="brand-logo" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png"
+                            alt="logo" />
+                    </a>
+                </div>
+                <div class="nav-button">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#" class="nav-link w--current">
+                        <div class="nav-text">Home</div>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <div class="nav-text">Projects</div>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <div class="nav-text">About</div>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <div class="nav-text">Services</div>
+                    </a>
+                    <a href="#" class="nav-link">
+                        <div class="nav-text">Blog</div>
+                    </a>
+                    <div class="dropdown" id="dropdown-item">
+                        <div class="nav-link drop">
+                            <div class="nav-text">Pages</div>
+                            <img class="arrow-image" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/sort-down.svg"
+                                alt="arrow" />
+                        </div>
+                        <nav class="dropdown-list">
+                            <a href="#" class="dropdown-link">404 error page</a>
+                            <a href="#" class="dropdown-link">protected page</a>
+                            <a href="#" class="dropdown-link">style guide</a>
+                            <a href="#" class="dropdown-link">Licensing</a>
+                        </nav>
+                    </div>
+                    <div class="free-quote-wrapper free-quote">
+                        <div class="text-block">Get Free Quote</div>
+                    </div>
+                </nav>
+                <div class="humburge-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="middle-content">
+                <h1 class="top-title on-banner">
+                    YOU DREAM. <br />
+                    WE CREATE.
+                </h1>
+                <p class="paragraph-white">
+                    We turn your ideas to reality, we don't stop until you're satisfied.
+                </p>
+                <a href="#" class="popup-botton">Get Free Quote</a>
+            </div>
+
+            <div class="social-button-section">
+                <a class="social-vertical-icon-link" href="#"><img class="social-icon"
+                        src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png" alt="facebook-img" />
+                </a>
+                <a class="social-vertical-icon-link" href="#"><img class="social-icon"
+                        src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png" alt="twiiter-img" />
+                </a>
+                <a class="social-vertical-icon-link" href="#"><img class="social-icon"
+                        src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png" alt="linklnd-img" />
+                </a>
+                <a class="social-vertical-icon-link" href="#"><img class="social-icon"
+                        src="https://nuuk-e3eaa.firebaseapp.com/assets/img/instagram-logo.png" alt="instagram-img" />
+                </a>
+            </div>
+
+            <div class="info-section-view">
+                <div class="info-flex">
+                    <div class="info-item">
+                        <img class="info-img" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/phone.svg"
+                            alt="info-img" />
+                        <h1 class="phone-text">PHONE NUMBER</h1>
+                        <p class="paragraph-white para-margin">1-800-506-266</p>
+                        <p class="paragraph-white para-margin">1-100-777-800</p>
+                    </div>
+                    <div class="info-item">
+                        <img class="info-img" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/mail.svg"
+                            alt="info-img" />
+                        <h1 class="phone-text">CONTACT</h1>
+                        <p class="paragraph-white para-margin">contact@nuuk.com</p>
+                        <p class="paragraph-white para-margin">info@nuuk.com</p>
+                    </div>
+                    <div class="info-item">
+                        <img class="info-img" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/clock.svg"
+                            alt="info-img" />
+                        <h1 class="phone-text">OPENING TIMES</h1>
+                        <p class="paragraph-white para-margin">
+                            Mon - Sat 8:00 - 17:30, Sunday - Closed
+                        </p>
+                        <a class="primary-button" href="#">
+                            <div class="botton-text">Find on Map</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-container">
+            <div class="primary-heading-wrapper">
+                <div class="background-title">
+                    SERVICES
+                    <h1 class="top-title title-desc">OUR SPECIALIZATION</h1>
+                </div>
+                <a class="hovered-button for-button" href="#">
+                    <div>View All Services</div>
+                </a>
+            </div>
+            <div class="section-item-wrapper">
+                <div class="service-item">
+                    <img class="item-image" class="" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/brickwall.svg"
+                        alt="item-img" />
+                    <h1 class="item-title title-weight">RENOVATION</h1>
+                    <p class="item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.
+                    </p>
+                    <a class="hovered-button for-button" href="#">
+                        <div>Learn More</div>
+                    </a>
+                </div>
+                <div class="service-item">
+                    <img class="item-image" class="" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/set-square.svg"
+                        alt="item-img" />
+                    <h1 class="item-title title-weight">ARCHITECTURE</h1>
+                    <p class="item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.
+                    </p>
+                    <a class="hovered-button for-button" href="#">
+                        <div>Learn More</div>
+                    </a>
+                </div>
+                <div class="service-item">
+                    <img class="item-image" class="" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/toolbox.svg"
+                        alt="item-img" />
+                    <h1 class="item-title title-weight">CONSTRUCTION</h1>
+                    <p class="item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.
+                    </p>
+                    <a class="hovered-button for-button" href="#">
+                        <div>Learn More</div>
+                    </a>
+                </div>
+                <div class="service-item">
+                    <img class="item-image" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/paint-roller.svg"
+                        alt="item-img" />
+                    <h1 class="item-title title-weight">FINANCIAL RESULTS</h1>
+                    <p class="item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.
+                    </p>
+                    <a class="hovered-button for-button" href="#">
+                        <div>Learn More</div>
+                    </a>
+                </div>
+            </div>
+            <div class="who-we-wrapper">
+                <div class="labour-img-wrapper">
+                    <img class="labour-img" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/serv-1.jpg"
+                        alt="labour-img" />
+                </div>
+                <div class="who-we-disc">
+                    <div>
+                        <h1 class="top-title title-desc margin-set">WHO WE ARE</h1>
+                    </div>
+                    <div>
+                        <p class="item-text margin-top-d">
+                            Based on collective work and shared knowledge, Nuuk aims to
+                            favor dialogue and debate, to transform individual knowledge
+                            into increased creative potential. <br /><br />
+                            Our studio is a architecture practice based in NY and Paris.
+                            Today, it includes 150 architects, urban planners, landscape and
+                            interior designers of 25 different nationalities. The company
+                            principle of Architecture-Studio is the collective conception.
+                            From the very beginning, the practice has believed in the
+                            virtues of exchange, crossing ideas, common effort, shred
+                            knowledge.
+                        </p>
+                    </div>
+                    <div>
+                        <a class="hovered-button for-button margin-top-b" href="#">
+                            <div>Meet the team</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="fun-facts margin-page">
+                <div class="fun-item">
+                    <div class="fun-title">170</div>
+                    <p class="item-text">Employer with over 10 years of experience</p>
+                </div>
+                <div class="fun-item">
+                    <div class="fun-title">10</div>
+                    <p class="item-text">Years experience in construction industries</p>
+                </div>
+                <div class="fun-item">
+                    <div class="fun-title">690</div>
+                    <p class="item-text">Residential premises completed in 2019</p>
+                </div>
+                <div class="fun-item">
+                    <div class="fun-title">7.1</div>
+                    <p class="item-text">Milion dollar value on investments</p>
+                </div>
+            </div>
+        </section>
+        <section class="section-gray">
+            <section id="project-container" style="padding-top: 1px">
+                <div class="project-heading">
+                    <div class="primary-heading-wrapper">
+                        <div class="background-title">
+                            PROJECTS
+                            <h1 class="top-title title-desc">Our Work</h1>
+                        </div>
+                        <a class="hovered-button for-button" href="#">
+                            <div>View all works</div>
+                        </a>
+                    </div>
+                </div>
+                <div id="projects-content-wrapper">
+                    <div class="project-grid">
+                        <div>
+                            <div class="project-items">
+                                <a href="#" class="project-content">
+                                    <div class="project-details">
+                                        <img class="project-img"
+                                            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-1.jpg"
+                                            alt="project-img" />
+                                        <div class="project-overlay">
+                                            <div class="project-circle">
+                                                <div>View project</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project-items">
+                                <a href="#" class="project-content">
+                                    <div class="project-details">
+                                        <img class="project-img"
+                                            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-4.jpg"
+                                            alt="project-img" />
+                                        <div class="project-overlay">
+                                            <div class="project-circle">
+                                                <div>View project</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project-items">
+                                <a href="#" class="project-content">
+                                    <div class="project-details">
+                                        <img class="project-img"
+                                            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-3.jpg"
+                                            alt="project-img" />
+                                        <div class="project-overlay">
+                                            <div class="project-circle">
+                                                <div>View project</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project-items">
+                                <a href="#" class="project-content">
+                                    <div class="project-details">
+                                        <img class="project-img"
+                                            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-6.jpg"
+                                            alt="project-img" />
+                                        <div class="project-overlay">
+                                            <div class="project-circle">
+                                                <div>View project</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project-items">
+                                <a href="#" class="project-content">
+                                    <div class="project-details">
+                                        <img class="project-img"
+                                            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-5.jpg"
+                                            alt="project-img" />
+                                        <div class="project-overlay">
+                                            <div class="project-circle">
+                                                <div>View project</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project-items">
+                                <a href="#" class="project-content">
+                                    <div class="project-details">
+                                        <img class="project-img"
+                                            src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-2.jpg"
+                                            alt="project-img" />
+                                        <div class="project-overlay">
+                                            <div class="project-circle">
+                                                <div>View project</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="orange-section">
+                                <div class="orange-content">
+                                    <h1 class="top-title title-size">
+                                        LET'S MAKE SOMETHING GREAT TOGETHER
+                                    </h1>
+                                    <p class="paragraph-white">
+                                        Get in touch with us and send some basic info for a quick
+                                        quote.
+                                    </p>
+                                    <a class="primary-button" href="#">
+                                        <div class="botton-text">Get free quote</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section id="professionals-section">
+                <div class="project-heading">
+                    <div class="primary-heading-wrapper minus-margin">
+                        <div class="background-title">
+                            <h1 class="top-title title-desc">professionals</h1>
+                        </div>
+                        <a class="hovered-button for-button" href="#">
+                            <div>About us</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-container">
+                    <div class="team-grid">
+                        <div class="team-wrapper">
+                            <div class="team-content">
+                                <div class="person-photo"></div>
+                                <div class="team-desc">
+                                    <h1 class="item-title name title-weight">PHILIP BROWER</h1>
+                                    <p class="job-title">Managing Director</p>
+                                    <div class="social-button-section horizantal">
+                                        <a class="social-vertical-icon-link" href="#"><img class="social-icon"
+                                                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png"
+                                                alt="facebook-img" />
+                                        </a>
+                                        <a class="social-vertical-icon-link" href="#"><img class="social-icon"
+                                                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png"
+                                                alt="twiiter-img" />
+                                        </a>
+                                        <a class="social-vertical-icon-link no-border" href="#"><img class="social-icon"
+                                                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png"
+                                                alt="linked.in" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-wrapper">
+                            <div class="team-content">
+                                <div class="person-photo _2"></div>
+                                <div class="team-desc">
+                                    <h1 class="item-title name title-weight">JOHN WICK</h1>
+                                    <p class="job-title">Managing Director</p>
+                                    <div class="social-button-section horizantal">
+                                        <a class="social-vertical-icon-link" href="#"><img class="social-icon"
+                                                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png"
+                                                alt="facebook-img" />
+                                        </a>
+                                        <a class="social-vertical-icon-link" href="#"><img class="social-icon"
+                                                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png"
+                                                alt="twiiter-img" />
+                                        </a>
+                                        <a class="social-vertical-icon-link no-border" href="#"><img class="social-icon"
+                                                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png"
+                                                alt="linklnd-img" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-wrapper">
+                            <div class="team-content">
+                                <div class="person-photo _3"></div>
+                                <div class="team-desc">
+                                    <h1 class="item-title name title-weight">JIMMY MCGILL</h1>
+                                    <p class="job-title">Managing Director</p>
+                                    <div class="social-button-section horizantal">
+                                        <a class="social-vertical-icon-link" href="#"><img class="social-icon"
+                                                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png"
+                                                alt="facebook-img" />
+                                        </a>
+                                        <a class="social-vertical-icon-link" href="#"><img class="social-icon"
+                                                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png"
+                                                alt="twiiter-img" />
+                                        </a>
+                                        <a class="social-vertical-icon-link no-border" href="#"><img class="social-icon"
+                                                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png"
+                                                alt="linklnd-img" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-wrapper">
+                            <div class="team-content">
+                                <div class="person-photo _4"></div>
+                                <div class="team-desc">
+                                    <h1 class="item-title name title-weight">SARA CONNOR</h1>
+                                    <p class="job-title">Managing Director</p>
+                                    <div class="social-button-section horizantal">
+                                        <a class="social-vertical-icon-link" href="#"><img class="social-icon"
+                                                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png"
+                                                alt="facebook-img" />
+                                        </a>
+                                        <a class="social-vertical-icon-link" href="#"><img class="social-icon"
+                                                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png"
+                                                alt="twiiter-img" />
+                                        </a>
+                                        <a class="social-vertical-icon-link no-border" href="#"><img class="social-icon"
+                                                src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png"
+                                                alt="linklnd-img" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonial-section" id="section-container">
+                <div class="testimonial-text">
+                    <h1 class="top-title title-desc">TESTIMONIALS</h1>
+                    <p class="item-text margin-top-b">
+                        Aenean ut eros et nisl sagittis vestibulum. Fusce neque. Praesent
+                        blandit laoreet nibh. Morbi mollis tellus ac sapien.
+                    </p>
+                    <a class="hovered-button for-button" href="#">
+                        <div>Our Services</div>
+                    </a>
+                </div>
+                <div class="testimonial-details">
+                    <div class="test-details-part">
+                        <div class="test-wrapper">
+                            <div class="testo-photo">
+                                <div class="photo-block2">"</div>
+                            </div>
+                            <h4 class="testi-title">SARA WILLIAM</h4>
+                            <div class="job-title">CEO at Webflow</div>
+                            <p class="testi-paragraph">
+                                "Duis cursus, mi quis viverra ornare, eros dolor interdum
+                                nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh
+                                et justo cursus id rutrum lorem imperdiet"
+                            </p>
+                        </div>
+                        <div class="test-wrapper">
+                            <div class="testo-photo">
+                                <div class="photo-block2">"</div>
+                            </div>
+                            <h4 class="testi-title">JOHN JUNIOR</h4>
+                            <div class="job-title">Menager at Complexx</div>
+                            <p class="testi-paragraph">
+                                "Donec orci lectus, aliquam ut, faucibus non, euismod id,
+                                nulla. Cras varius. Etiam sit amet orci eget eros faucibus
+                                tincidunt. Fusce a quam"
+                            </p>
+                        </div>
+                    </div>
+                    <div class="test-details-part">
+                        <div class="test-wrapper move-down">
+                            <div class="testo-photo">
+                                <div class="photo-block2">"</div>
+                            </div>
+                            <h4 class="testi-title">RAVEN DURGAN</h4>
+                            <div class="job-title">Architect at Group</div>
+                            <p class="testi-paragraph">
+                                "Aliquam eu nunc. Cras dapibus. Vestibulum turpis sem, aliquet
+                                eget, lobortis pellentesque, rutrum eu, nisl"
+                            </p>
+                        </div>
+                        <div class="test-wrapper">
+                            <div class="testo-photo">
+                                <div class="photo-block2">"</div>
+                            </div>
+                            <h4 class="testi-title">SAMI TYPO</h4>
+                            <div class="job-title">SEO at Balfin</div>
+                            <p class="testi-paragraph">
+                                "Vestibulum fringilla pede sit amet augue. Morbi ac felis. Ut
+                                a nisl id ante tempus hendrerit"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="section-container" class="blog-section">
+            <div class="primary-heading-wrapper minus-margin">
+                <div class="background-title">
+                    <h1 class="top-title title-desc">Latest News</h1>
+                </div>
+                <a class="hovered-button for-button" href="#">
+                    <div>View Blog</div>
+                </a>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-item">
+                    <a href="#" class="blog-wrapper">
+                        <div class="blog-img-wrapper">
+                            <img class="blog-img" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-1.jpg"
+                                alt="blog-img" />
+                            <div class="meta-tag">
+                                <div class="meta-number">
+                                    <div>17</div>
+                                </div>
+                                <div class="meta-month">
+                                    <div>Oct</div>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h1 class="top-title smaller-white-blog">Blogpost 1</h1>
+                                <p class="paragraph-white for-blog">
+                                    Service and providing potential clients and customers with
+                                    testimonials is one of the best ways to market.
+                                </p>
+                                <div class="white-button for-white">
+                                    <div>read more</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-item">
+                    <a href="#" class="blog-wrapper">
+                        <div class="blog-img-wrapper">
+                            <img class="blog-img" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-2.jpg"
+                                alt="blog-img" />
+                            <div class="meta-tag">
+                                <div class="meta-number">
+                                    <div>11</div>
+                                </div>
+                                <div class="meta-month">
+                                    <div>Dec</div>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h1 class="top-title smaller-white-blog">Blogpost 2</h1>
+                                <p class="paragraph-white for-blog">
+                                    Service and providing potential clients and customers with
+                                    testimonials is one of the best ways to market.
+                                </p>
+                                <div class="white-button for-white">
+                                    <div>read more</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="blog-item">
+                    <a href="#" class="blog-wrapper">
+                        <div class="blog-img-wrapper">
+                            <img class="blog-img" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-3.jpg"
+                                alt="blog-img" />
+                            <div class="meta-tag">
+                                <div class="meta-number">
+                                    <div>27</div>
+                                </div>
+                                <div class="meta-month">
+                                    <div>Oct</div>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h1 class="top-title smaller-white-blog">Blogpost 3</h1>
+                                <p class="paragraph-white for-blog">
+                                    Service and providing potential clients and customers with
+                                    testimonials is one of the best ways to market.
+                                </p>
+                                <div class="white-button for-white">
+                                    <div>read more</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="logo-section">
+            <h1 class="top-title company-font-size no-display">
+                trusted by top companies
+            </h1>
+
+            <div class="logo-flex">
+                <h1 class="top-title company-font-size left-not-display">
+                    trusted by top companies
+                </h1>
+                <a class="tab-logo logo-1" href="#"></a>
+                <a class="tab-logo logo-2" href="#"></a>
+                <a class="tab-logo logo-3" href="#"></a>
+                <a class="tab-logo logo-4" href="#"></a>
+                <a class="tab-logo logo-5" href="#"></a>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-item">
+                    <div class="footer-column">
+                        <div class="with-line">
+                            <h1 class="top-title in-footer">About Nuuk</h1>
+                            <div class="line"></div>
+                        </div>
+                        <p class="paragraph-white _white1">
+                            Based on collective work and shared knowledge, Nuuk aims to
+                            favor dialogue and debate, to transform individual knowledge
+                            into increased creative potential.
+                        </p>
+                        <a class="white-button for-white blue margin_1" href="#">
+                            <div>find on map</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-column">
+                        <div class="with-line">
+                            <h1 class="top-title in-footer">services</h1>
+                            <div class="line"></div>
+                        </div>
+                        <div class="services-tab">
+                            <div class="footer-b-margin">
+                                <a class="white-button for-white blue margin_1" href="#">
+                                    <div>FINANCIAL RESULTS</div>
+                                </a>
+                            </div>
+                            <div class="footer-b-margin">
+                                <a class="white-button for-white blue" href="#">
+                                    <div>CONSTRUCTION</div>
+                                </a>
+                            </div>
+                            <div class="footer-b-margin">
+                                <a class="white-button for-white blue" href="#">
+                                    <div>ARCHITECTURE</div>
+                                </a>
+                            </div>
+                            <div class="footer-b-margin">
+                                <a class="white-button for-white blue" href="#">
+                                    <div>RENOVATION</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="footer-column">
+                        <div class="with-line">
+                            <h1 class="top-title in-footer">Contact us</h1>
+                            <div class="line"></div>
+                        </div>
+                        <div class="contact-info contact-column">
+                            <div class="contact-wrapper">
+                                <div class="info-item horizantal">
+                                    <img class="info-img left"
+                                        src="https://nuuk-e3eaa.firebaseapp.com/assets/img/phone.svg" alt="info-img" />
+                                    <h1 class="new">PHONE NUMBER</h1>
+                                </div>
+                                <p class="phone-no">1-800-506-266</p>
+                            </div>
+                            <div class="contact-wrapper">
+                                <div class="info-item horizantal">
+                                    <img class="info-img left"
+                                        src="https://nuuk-e3eaa.firebaseapp.com/assets/img/clock.svg" alt="info-img" />
+                                    <h1 class="new">OPENING TIMES</h1>
+                                </div>
+                                <p class="phone-no">
+                                    Mon - Sat 8:00 - 17:30, Sunday <br />
+                                    Closed
+                                </p>
+                            </div>
+
+                            <div class="contact-wrapper">
+                                <div class="info-item horizantal">
+                                    <img class="info-img left"
+                                        src="https://nuuk-e3eaa.firebaseapp.com/assets/img/mail.svg" alt="info-img" />
+                                    <h1 class="new">CONTACT</h1>
+                                </div>
+                                <p class="phone-no">contact@nuuk.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="bottom-brand">
+                    <div class="brand">
+                        <a href="#">
+                            <img class="brand-logo" src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png"
+                                alt="logo" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
